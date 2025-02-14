@@ -1,7 +1,7 @@
 ---
 <br>
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F7B801&center=true&vCenter=true&width=500&lines=Aspiring+Software+Engineer!;Web+Development+%26+AI+Enthusiast!;Open-Source+Contributor!;Always+Learning!🚀" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F7B801&left=true&vCenter=true&width=500&lines=Hello+my+friend!;Are you+currently gabut+%26+stressed?;Just give me+dollars 💸;Then you will soon+be at peace!🗿;Don't forget+to+eat!" alt="Typing SVG"/>
 </p>
 <br>
 
