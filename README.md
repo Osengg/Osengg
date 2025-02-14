@@ -25,7 +25,7 @@ I'm _**OSENG**_ with a deep passion for coding and problem-solving. I love explo
 </p>
 
 ### How to Reach Me
-- 📩 Email: [support@oseng.com](mailto:support@oseng.com)
+- 📩 Email: [support@oseng.com](mailto:faruq110803@gmail.com)
 - 🎥 YouTube: [Sngklem](https://www.youtube.com/@Sngklem)
 
 ### Fun Fact
