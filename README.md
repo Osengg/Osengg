@@ -11,8 +11,8 @@
 - Machine Learning fundamentals   
 
 📫 How to Reach Me:  
-- Email: [faruq110803@gmail.com](mailto:faruq110803@gmail.com)  
-- YouTube: [@Sngklem](https://www.youtube.com/@Sngklem)  
+- Email: [support@oseng.com](mailto:faruq110803@gmail.com)  
+- YouTube: [Sngklem](https://www.youtube.com/@Sngklem)  
 
 😄 Nickname:  
 Oseng/Ruk
