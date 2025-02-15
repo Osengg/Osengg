@@ -7,7 +7,7 @@
 
 ### Real-Time Clock
 
-![Live Clock](https://realtime-clock.oseng-fcc.workers.dev?t=1720000000)
+![Live Clock](https://realtime-clock.oseng-fcc.workers.dev?t=${Date.now()})
 
 ### About Me
 I'm _**OSENG**_ with a deep passion for coding and problem-solving.<br> I love exploring new technologies and building innovative projects!
