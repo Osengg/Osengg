@@ -1,7 +1,7 @@
 name: Live Clock Updater
 on:
   schedule:
-    - cron: "*/1 * * * *" # Jalankan setiap 1 menit
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -16,12 +16,11 @@ jobs:
       - name: Generate Random Hash
         id: random
         run: |
-          RAND=$(openssl rand -hex 3)
+          RAND=$(openssl rand -hex 3) # Generate random hash
           echo "RAND=$RAND" >> $GITHUB_OUTPUT
 
       - name: Update README
         run: |
-          # Regex untuk mengganti URL gambar
           sed -i -E "s/(https:\/\/realtime-clock\.oseng-fcc\.workers\.dev\?t=)[a-fA-F0-9]+/\1${{ steps.random.outputs.RAND }}/" README.md
 
       - name: Commit Changes
@@ -29,5 +28,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "🔄 Live Clock Update"
+          git commit -m "🔄 Live Update"
           git push
