@@ -1,7 +1,7 @@
 name: Live Clock Updater
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/1 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,6 +21,7 @@ jobs:
 
       - name: Update README
         run: |
+          # Regex untuk mengganti parameter t di URL gambar
           sed -i -E "s/(https:\/\/realtime-clock\.oseng-fcc\.workers\.dev\?t=)[a-fA-F0-9]+/\1${{ steps.random.outputs.RAND }}/" README.md
 
       - name: Commit Changes
