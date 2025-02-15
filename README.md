@@ -24,16 +24,8 @@ I'm _**OSENG**_ with a deep passion for coding and problem-solving. I love explo
   <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
 </p>
 
-### How to Reach Me
-- 📩 Email: [support@oseng.com](mailto:faruq110803@gmail.com)
-- 🎥 YouTube: [Sngklem](https://www.youtube.com/@Sngklem)
-
-### Fun Fact
-I can code for hours as long as there’s a **plate of fried rice**, a **hot cup of coffee**, and a **cigarette** to spark my creativity! ☕🚬
-
 ---
 
 <p align="left">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFmc2ZuMjlqbTI2d2JlYWt0dmlnd3ZzbGhzbGNqajh3b2tnbGljNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.gif" width="500" alt="Elephant GIF"/>
 </p>
-
