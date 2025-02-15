@@ -1,0 +1,42 @@
+name: Live Clock Updater
+on:
+  schedule:
+    - cron: "*/1 * * * *" # Jalankan setiap 1 menit
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update README with Live Clock
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { data: readmeContent } = await github.rest.repos.getContent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: "README.md",
+              ref: "main"
+            });
+
+            const currentContent = Buffer.from(readmeContent.content, 'base64').toString('utf8');
+            const cloudflareUrl = "https://realtime-clock.oseng-fcc.workers.dev";
+            const newContent = currentContent.replace(
+              /!\[Live Clock\]\(.*\)/,
+              `![Live Clock](${cloudflareUrl})`
+            );
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: "README.md",
+              message: "🔄 Live Clock Update",
+              content: Buffer.from(newContent).toString('base64'),
+              sha: readmeContent.sha,
+              branch: "main"
+            });
