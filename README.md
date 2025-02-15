@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-  <img src="https://realtime-clock.oseng-fcc.workers.dev/" alt="Typing SVG"/>
+  <img src="https://realtime-clock.oseng-fcc.workers.dev" alt="Typing SVG"/>
 </p>
 
 ### About Me
