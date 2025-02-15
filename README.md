@@ -5,8 +5,6 @@
 
 ---
 
-### Real-Time Clock
-
 ![Live Clock](https://realtime-clock.oseng-fcc.workers.dev?t=${Date.now()})
 
 ### About Me
