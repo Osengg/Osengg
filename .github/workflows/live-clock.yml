@@ -16,12 +16,11 @@ jobs:
       - name: Generate Random Hash
         id: random
         run: |
-          RAND=$(openssl rand -hex 3) # Generate random hash
+          RAND=$(openssl rand -hex 3)
           echo "RAND=$RAND" >> $GITHUB_OUTPUT
 
       - name: Update README
         run: |
-          # Regex untuk mengganti parameter t di URL gambar
           sed -i -E "s/(https:\/\/realtime-clock\.oseng-fcc\.workers\.dev\?t=)[a-fA-F0-9]+/\1${{ steps.random.outputs.RAND }}/" README.md
 
       - name: Commit Changes
