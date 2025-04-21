@@ -1,6 +1,7 @@
 <div align="center">
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E6F73D&width=435&lines=Hello+my+friend!;Are you+currently gabut+%26+stressed?;Just give me+dollars 💸;Then you will soon+be at peace!🗿;Don't forget+to+eat!"/>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E6F73D&width=435&lines=The+five+boxing+wizards+jump+quickly" alt="Typing SVG" /></a>
 </p>
 
 ---
