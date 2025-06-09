@@ -5,7 +5,7 @@
 
 ---
 
-![Live Clock](https://realtime-clock.oseng-fcc.workers.dev?t=bbe1dc)
+![Live Clock](https://realtime-clock.oseng-fcc.workers.dev?t=6c7fa0)
 
 ### About Me
 I'm _**OSENG**_ with a deep passion for coding and problem-solving.<br> I love exploring new technologies and building innovative projects!
